@@ -3,7 +3,7 @@ from random import randint
 buttons = [randint(0, 1), randint(0, 1), randint(0, 1), randint(0, 1)]
 
 while not (
-    (buttons[0] == 1) and (buttons[0] == buttons[1] == buttons[2] == buttons[3])
+    (buttons[0] == 0) and (buttons[0] == buttons[1] == buttons[2] == buttons[3])
 ):
 
     for i in range(randint(1, 100)):
